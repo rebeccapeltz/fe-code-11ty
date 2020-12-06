@@ -1,7 +1,7 @@
 {
-  "title": "Your Blog Name",
+  "title": "Cloudinary with Frontend",
   "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Using Cloudinary with the front end frameworks.",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
@@ -13,8 +13,8 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
+    "name": "Becky Peltz",
+    "email": "rebecca.peltz@cloudinary.com",
     "url": "https://example.com/about-me/"
   }
 }

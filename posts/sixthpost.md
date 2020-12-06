@@ -1,11 +1,11 @@
 ---
-title: This is my first post.
+title: Vue.js + Upload Widget
 description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
-tags:
-  - another-tag
+date: 2020-12-06
+tags: vue.js
 layout: layouts/post.njk
 ---
+
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
 <iframe src="https://codesandbox.io/embed/vue-cloudinary-upload-widget-r4hw2?fontsize=14&hidenavigation=1&theme=dark"
@@ -21,7 +21,7 @@ Bring to the table win-win survival strategies to ensure proactive domination. A
 
 Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
 
-``` text/2-3
+```text/2-3
 // this is a command
 function myCommand() {
 	let counter = 0;
