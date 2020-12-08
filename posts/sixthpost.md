@@ -4,13 +4,15 @@ description: This is a post on My Blog about agile frameworks.
 date: 2020-12-06
 tags: vue.js
 layout: layouts/post.njk
+s_url: https://codesandbox.io/embed/vue-cloudinary-upload-widget-r4hw2?fontsize=14&hidenavigation=1&theme=dark
+s_title: vue-cloudinary-upload-widget
 ---
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-<iframe src="https://codesandbox.io/embed/vue-cloudinary-upload-widget-r4hw2?fontsize=14&hidenavigation=1&theme=dark"
+<iframe src="{{s_url}}"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="vue-cloudinary-upload-widget"
+     title="{{s_title}}"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
