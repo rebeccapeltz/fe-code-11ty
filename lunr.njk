@@ -1,0 +1,15 @@
+---
+permalink: /test.json
+---
+
+[
+{% for post in collections.posts %}
+{
+   "title":"{{post.data.title}}",
+   "url":"{{post.url}}",
+   "description":"{{post.data.description}}"
+} 
+
+{% if loop.last == false %},{% endif %}
+{% endfor %} 
+]

@@ -33,6 +33,14 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
+  eleventyConfig.addCollection("posts", function(collection) {
+    return collection.getFilteredByGlob("posts/*.md").sort((a,b) => {
+      if(a.data.date < b.data.date) return -1;
+      if(a.data.date > b.date.date) return 1;
+      return 0;
+    });
+  });
+
   eleventyConfig.addFilter("min", (...numbers) => {
     return Math.min.apply(null, numbers);
   });
